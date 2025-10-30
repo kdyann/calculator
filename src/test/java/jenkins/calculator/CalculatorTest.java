@@ -27,4 +27,11 @@ public class CalculatorTest {
     public void testDiv(){
         assertEquals(6, calculator.div(12,2));
     }
+
+    @Test
+    @DisplayName("이름 및 학번 출력")
+    public void printStudentInfo() {
+        System.out.println("학번: 202332045");
+        System.out.println("이름: 김다영");
+    }
 }
